@@ -166,6 +166,7 @@ iframe {
 
 body {
     overflow-x: hidden;
+    overflow-y: auto;
     font-size: 17px;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
@@ -184,7 +185,7 @@ footer {
 }
 .content-wrapper {
     flex: 1 0 auto;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
 }
 .container {
     padding-right: 0;
@@ -1938,16 +1939,16 @@ footer ul.tag-list li a.btn.active {
 /*-----------------------------------------------------------------------------------*/
 
 .parallax {
-    background: url(style/images/art/parallax.jpg) fixed no-repeat center center;
+    background: url(https://ablfnto6n.cloudimg.io/cdn/0/0/https://i.imgur.com/x7XRVTA.jpg) fixed no-repeat center center;
     background-size: cover;
     position: relative;
     z-index: 1;
 }
 .parallax1 {
-    background-image: url(https://i.imgur.com/x7XRVTA.jpg);
+    background-image: url(https://ablfnto6n.cloudimg.io/cdn/0/0/https://i.imgur.com/x7XRVTA.jpg);
 }
 .parallax2 {
-    background-image: url(https://i.imgur.com/An0YKiy.jpg);
+    background-image: url(https://ablfnto6n.cloudimg.io/cdn/0/0/https://i.imgur.com/x7XRVTA.jpg);
 }
 .parallax.mobile {
     background-attachment: scroll !important
