@@ -1939,17 +1939,22 @@ footer ul.tag-list li a.btn.active {
 /*-----------------------------------------------------------------------------------*/
 
 .parallax {
-    background: url(https://ablfnto6n.cloudimg.io/cdn/0/0/https://i.imgur.com/x7XRVTA.jpg) fixed no-repeat center center;
+    background: url(https://ablfnto6n.cloudimg.io/cdn/n/q100/https://i.imgur.com/a23LWtN.jpg) fixed no-repeat center center;
     background-size: cover;
     position: relative;
     z-index: 1;
 }
+
 .parallax1 {
-    background-image: url(https://ablfnto6n.cloudimg.io/cdn/0/0/https://i.imgur.com/x7XRVTA.jpg);
+    background-image: url(https://ablfnto6n.cloudimg.io/cdn/n/q100/https://i.imgur.com/a23LWtN.jpg);
 }
 .parallax2 {
-    background-image: url(https://ablfnto6n.cloudimg.io/cdn/0/0/https://i.imgur.com/x7XRVTA.jpg);
+    background-image: url(https://ablfnto6n.cloudimg.io/cdn/n/q100/https://i.imgur.com/x7XRVTA.jpg);
 }
+.parallax3 {
+    background-image: url(https://ablfnto6n.cloudimg.io/cdn/n/q100/https://i.imgur.com/a23LWtN.jpg);
+}
+
 .parallax.mobile {
     background-attachment: scroll !important
 }

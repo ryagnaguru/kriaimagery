@@ -28,7 +28,7 @@
     <div class="navbar navbar-default navbar-fixed default" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
-          <div class="navbar-brand"><a href="index.html"><img src="style/images/logo.png" alt="KriaImagery" /></a></div>
+          <div class="navbar-brand"><a href="index.html"><img src="#" srcset="style/images/logo.png 1x, style/images/logo@2x.png 2x" alt="" /></a></div>
           <div class="nav-bars-wrapper">
             <div class="nav-bars-inner">
               <div class="nav-bars" data-toggle="collapse" data-target=".navbar-collapse"><span></span></div>
@@ -55,6 +55,8 @@
                   <li><a href="index2.html">Kids</a></li>
                   <li><a href="index3.html">Maternity</a></li>
                   <li><a href="index4.html">Models</a></li>
+                  <li><a href="couple.html">Couples</a></li>
+                
                 </ul>
               </li>
               <li><a href="gallery.html">Gallery</a></li>
@@ -177,64 +179,62 @@
             flexible and help out your needs.</p>
           <div class="divide10"></div>
           <div class="form-container">
-            <form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate="novalidate">
-              <div class="row">
-                <div class="col-sm-6 rp10">
-                  <div class="form-field">
-                    <label>
-                      <input type="text" name="name" placeholder="Your name" required="required">
-                    </label>
+              <form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate="novalidate">
+                <div class="row">
+                  <div class="col-sm-6 rp10">
+                    <div class="form-field">
+                      <label>
+                        <input type="text" name="name" placeholder="Your name" required="required">
+                      </label>
+                    </div>
+                    <!--/.form-field --> 
                   </div>
-                  <!--/.form-field -->
-                </div>
-                <!--/column -->
-                <div class="col-sm-6 lp10">
-                  <div class="form-field">
-                    <label>
-                      <input type="email" name="email" placeholder="Your e-mail" required="required">
-                    </label>
+                  <!--/column -->
+                  <div class="col-sm-6 lp10">
+                    <div class="form-field">
+                      <label>
+                        <input type="email" name="email" placeholder="Your e-mail" required="required">
+                      </label>
+                    </div>
+                    <!--/.form-field --> 
                   </div>
-                  <!--/.form-field -->
-                </div>
-                <!--/column -->
-                <div class="col-sm-6 rp10">
-                  <div class="form-field">
-                    <label>
-                      <input type="tel" name="tel" placeholder="Phone">
-                    </label>
+                  <!--/column -->
+                  <div class="col-sm-6 rp10">
+                    <div class="form-field">
+                      <label>
+                        <input type="tel" name="tel" placeholder="Phone">
+                      </label>
+                    </div>
+                    <!--/.form-field --> 
                   </div>
-                  <!--/.form-field -->
-                </div>
-                <!--/column -->
-                <div class="col-sm-6 lp10">
-                  <div class="form-field">
-                    <label class="custom-select">
-                      <select name="department" required="required">
-                        <option value="">Who you are</option>
-                        <option value="Sales">Individual</option>
-                        <option value="Marketing">Organization</option>
-                      </select>
-                      <span>
-                        <!-- fake select handler --></span> </label>
+                  <!--/column -->
+                  <div class="col-sm-6 lp10">
+                    <div class="form-field">
+                      <label class="custom-select">
+                        <select name="department" required="required">
+                          <option value="">For ?</option>
+                          <option value="ind">Individual</option>
+                          <option value="org">Organization</option>
+                        </select>
+                        <span><!-- fake select handler --></span> </label>
+                    </div>
+                    <!--/.form-field --> 
                   </div>
-                  <!--/.form-field -->
+                  <!--/column -->
+                  
+                  <div class="col-sm-12 text-center">
+                    <textarea name="message" placeholder="Type your message here..." required="required"></textarea>
+                    
+                    <!--/.radio-set -->
+                    <input type="submit" class="btn btn-submit text-center" value="Send" data-error="Fix errors" data-processing="Sending..." data-success="Thank you!">
+                    <footer class="notification-box"></footer>
+                  </div>
+                  <!--/column --> 
+                  
                 </div>
-                <!--/column -->
-
-                <div class="col-sm-12 text-center">
-                  <textarea name="message" placeholder="Type your message here..." required="required"></textarea>
-
-                  <!--/.radio-set -->
-                  <input type="submit" class="btn btn-submit text-center" value="Send" data-error="Fix errors"
-                    data-processing="Sending..." data-success="Thank you!">
-                  <footer class="notification-box"></footer>
-                </div>
-                <!--/column -->
-
-              </div>
-              <!--/.row -->
-
-            </form>
+                <!--/.row -->
+                
+              </form>
             <!--/.vanilla-form -->
           </div>
           <!--/.form-container -->
@@ -257,7 +257,7 @@
         <footer>
           <div class="inner">
             <div class="row">
-              <div class="col-sm-3">
+              <div class="col-sm-4">
                 <div class="widget">
                   <h3 class="widget-title section-title">Get in Touch</h3>
                   <address>
@@ -284,13 +284,16 @@
               </div>
               <!-- /column -->
 
-              <div class="col-sm-3 pull-right">
+              <div class="col-sm-4 pull-right">
                 <div class="widget">
                   <h3 class="widget-title section-title">About Me</h3>
                   <figure> <img src="style/images/arts/about.jpg" alt="" /> </figure>
                   <div class="divide10"></div>
-                  <p>I am Santhanakrishnan Durai, photography was my hobby, it evolved as my passion and now as my
-                    life.
+                  <p>A chennaite, working s a software developer, I have passion towards sketching
+                    which led me to explore into the world of Photography. Most of my wanderlust centers 
+                    around to capture lifestyle moments, fashion & travel.<br/>
+                    I hope this space inspires you to explore new visuals & ideas. Feel free to leave
+                    a comment or follow me on social media.
                   </p>
                 </div>
                 <!-- /.widget -->
